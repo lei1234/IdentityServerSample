@@ -15,7 +15,7 @@ namespace IdentityServerCenter
             {
                 new ApiResource("orderApi"),
                 //如果资源api支持reference需要单独配置secret,userApi支持jwt reference两种
-                new ApiResource("userApi"){ApiSecrets={new Secret("userapiSecret".Sha256()) } }
+                new ApiResource("userApi",new List<string>{ "userName","phone"}){ApiSecrets={new Secret("userapiSecret".Sha256()) } }
             };
         }
 
@@ -42,6 +42,16 @@ namespace IdentityServerCenter
                     AccessTokenType=AccessTokenType.Reference,
                     //由于orderApi只支持jwt，而客户端是reference，所以访问不了orderApi
                     AllowedScopes={ "orderApi" ,"userApi"}
+                },
+                //如果客户端为password模式，api资源申明返回的claim（'userName','phone'），
+                //可以通过定义profileservice将claim返回给客户端
+                new Client
+                {
+                    ClientId="pwd-client",
+                    ClientSecrets={new Secret("pwd-secret".Sha256())},
+                    AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
+                    AllowedScopes={"orderApi","userApi"}
+
                 }
             };
         }
@@ -50,7 +60,12 @@ namespace IdentityServerCenter
         {
             return new List<TestUser>
             {
-
+                new TestUser
+                {
+                    SubjectId="adamson",
+                    Username="adamson",
+                    Password="pwd123"
+                }
             };
         }
     }

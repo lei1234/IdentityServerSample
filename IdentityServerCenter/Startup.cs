@@ -2,10 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityServerCenter.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -30,11 +33,27 @@ namespace IdentityServerCenter
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("defaultSqlServer"));
+            });
+
+            services.AddIdentity<AppUser, AppRole>(options =>
+            {
+                options.Password.RequiredLength = 6;
+                options.Password.RequireUppercase = false;
+                //options.Password.RequiredUniqueChars = 0;
+                options.Password.RequireUppercase = false;
+            })
+            .AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
+
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
                 .AddInMemoryApiResources(MyConfig.GetApiResources())
                 .AddInMemoryClients(MyConfig.GetClients())
-                .AddTestUsers(MyConfig.GetTestUser().ToList());
+                .AddTestUsers(MyConfig.GetTestUser().ToList())
+                .AddProfileService<ProfileService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -56,7 +75,7 @@ namespace IdentityServerCenter
 
             app.UseIdentityServer();
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

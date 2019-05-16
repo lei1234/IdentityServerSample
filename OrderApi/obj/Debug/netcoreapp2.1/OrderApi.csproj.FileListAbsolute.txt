@@ -1,0 +1,14 @@
+E:\MyGithub-IdentityServer\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.deps.json
+E:\MyGithub-IdentityServer\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.runtimeconfig.json
+E:\MyGithub-IdentityServer\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.runtimeconfig.dev.json
+E:\MyGithub-IdentityServer\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.dll
+E:\MyGithub-IdentityServer\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.pdb
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.csprojAssemblyReference.cache
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.csproj.CoreCompileInputs.cache
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.RazorAssemblyInfo.cache
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.RazorAssemblyInfo.cs
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.AssemblyInfoInputs.cache
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.AssemblyInfo.cs
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.RazorTargetAssemblyInfo.cache
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.dll
+E:\MyGithub-IdentityServer\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.pdb
