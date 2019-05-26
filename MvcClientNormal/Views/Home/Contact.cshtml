@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Authentication;
+@{
+    ViewData["Title"] = "Contact";
+}
+
+
+<ul>
+    @foreach (var item in Context.User.Claims)
+    {
+        <li><span>@item.Type</span>-------------<span>@item.Value</span></li>
+    }
+</ul>
+
+<h1>Token</h1>
+
+<div>access_token: @await ViewContext.HttpContext.GetTokenAsync("access_token")</div>
+<div>refresh_token: @await ViewContext.HttpContext.GetTokenAsync("refresh_token")</div>
+<div>id_token: @await ViewContext.HttpContext.GetTokenAsync("id_token")</div>

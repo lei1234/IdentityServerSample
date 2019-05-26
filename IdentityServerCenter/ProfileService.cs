@@ -12,11 +12,14 @@ namespace IdentityServerCenter
     {
         public Task GetProfileDataAsync(ProfileDataRequestContext context)
         {
-            context.AddRequestedClaims(new List<Claim>
+            var claims = new List<Claim>
             {
                 new Claim("userName","adamson"),
                 new Claim("phone","13270739236")
-            });
+            };
+            //context.AddRequestedClaims();
+
+            context.IssuedClaims =claims;
 
             return Task.CompletedTask;
         }

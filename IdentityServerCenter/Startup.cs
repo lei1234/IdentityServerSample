@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityServerCenter.Authentication;
 using IdentityServerCenter.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,8 +26,10 @@ namespace IdentityServerCenter
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -48,11 +52,15 @@ namespace IdentityServerCenter
             .AddEntityFrameworkStores<AppDbContext>()
             .AddDefaultTokenProviders();
 
+            
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
+                //×Ô¶¨ÒågrantType
+                .AddExtensionGrantValidator<SmsAuthCodeValidator>()
                 .AddInMemoryApiResources(MyConfig.GetApiResources())
                 .AddInMemoryClients(MyConfig.GetClients())
                 .AddTestUsers(MyConfig.GetTestUser().ToList())
+                .AddInMemoryIdentityResources(MyConfig.GetIdentityResources())
                 .AddProfileService<ProfileService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

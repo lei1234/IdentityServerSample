@@ -1,4 +1,5 @@
-﻿using IdentityServer4.Models;
+﻿using IdentityServer4;
+using IdentityServer4.Models;
 using IdentityServer4.Test;
 using System;
 using System.Collections.Generic;
@@ -52,7 +53,47 @@ namespace IdentityServerCenter
                     AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
                     AllowedScopes={"orderApi","userApi"}
 
+                },
+                //配置MVC client
+                new Client
+                {
+                    ClientId="mvc-id",
+                    ClientSecrets={new Secret("mvc-secret".Sha256()) },
+                    //当客户端ResponseType="id_token" 返回 id_token 
+                    //code id_token
+                    AllowedGrantTypes=GrantTypes.Hybrid,
+                    RedirectUris={"http://localhost:58319/signin-oidc"},
+                    PostLogoutRedirectUris={"http://localhost:58319/signout-callback-oidc" },
+                    //讲profileservice信息通过idtoken返回给客户端
+                    AlwaysIncludeUserClaimsInIdToken=true,
+                    //配置讲refrece token返回给客户端,
+                    AllowOfflineAccess=true,
+                    AllowedScopes={
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        //配置refrece token给客户端
+                        IdentityServerConstants.StandardScopes.OfflineAccess,
+                        "userApi"
+                    },
+                    AccessTokenLifetime = 1800,//设置AccessToken过期时间
+                    //AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                    
+                    //RefreshTokenExpiration = TokenExpiration.Absolute,//刷新令牌将在固定时间点到期
+                    AbsoluteRefreshTokenLifetime = 2592000,//RefreshToken的最长生命周期,默认30天
+                    RefreshTokenExpiration = TokenExpiration.Sliding,//刷新令牌时，将刷新RefreshToken的生命周期。RefreshToken的总生命周期不会超过AbsoluteRefreshTokenLifetime。
+                    SlidingRefreshTokenLifetime = 3600,//
+                    
+
                 }
+            };
+        }
+
+        public static IEnumerable<IdentityResource> GetIdentityResources()
+        {
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile()
             };
         }
 
