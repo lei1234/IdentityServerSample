@@ -1,0 +1,42 @@
+{
+  "ReRoutes": [
+
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "UpstreamPathTemplate": "/orderapi/api/values",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "DownstreamScheme": "http",
+      "ServiceName": "orderApiName",
+      "Key": "OrderApi"
+    },
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "UpstreamPathTemplate": "/userApi/api/values",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "DownstreamScheme": "http",
+      "ServiceName": "usersApiName",
+      "Key": "UserApi"
+    }
+  ],
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "UserApi",
+        "OrderApi"
+      ],
+      "UpstreamPathTemplate": "/OrderAndUser"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:9000",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

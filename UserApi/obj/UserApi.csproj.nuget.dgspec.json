@@ -43,6 +43,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
             "IdentityServer4.AccessTokenValidation": {
               "target": "Package",
               "version": "[2.7.0, )"
@@ -62,6 +66,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
             }
           },
           "imports": [

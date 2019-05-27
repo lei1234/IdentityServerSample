@@ -13,10 +13,9 @@ namespace OrderApi.Controllers
     {
         // GET api/values
         [HttpGet]
-        [Authorize]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "orderApi", "orderApi" };
         }
 
         // GET api/values/5
