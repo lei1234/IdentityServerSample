@@ -1,0 +1,10 @@
+J:\github\MyGithub-IdentityServer\DirectSendSample\bin\Debug\netcoreapp2.1\DirectSendSample.deps.json
+J:\github\MyGithub-IdentityServer\DirectSendSample\bin\Debug\netcoreapp2.1\DirectSendSample.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\DirectSendSample\bin\Debug\netcoreapp2.1\DirectSendSample.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\DirectSendSample\bin\Debug\netcoreapp2.1\DirectSendSample.dll
+J:\github\MyGithub-IdentityServer\DirectSendSample\bin\Debug\netcoreapp2.1\DirectSendSample.pdb
+J:\github\MyGithub-IdentityServer\DirectSendSample\obj\Debug\netcoreapp2.1\DirectSendSample.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\DirectSendSample\obj\Debug\netcoreapp2.1\DirectSendSample.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\DirectSendSample\obj\Debug\netcoreapp2.1\DirectSendSample.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\DirectSendSample\obj\Debug\netcoreapp2.1\DirectSendSample.dll
+J:\github\MyGithub-IdentityServer\DirectSendSample\obj\Debug\netcoreapp2.1\DirectSendSample.pdb

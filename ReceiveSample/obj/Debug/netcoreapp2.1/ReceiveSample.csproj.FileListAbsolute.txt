@@ -1,0 +1,10 @@
+J:\github\MyGithub-IdentityServer\ReceiveSample\bin\Debug\netcoreapp2.1\ReceiveSample.deps.json
+J:\github\MyGithub-IdentityServer\ReceiveSample\bin\Debug\netcoreapp2.1\ReceiveSample.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\ReceiveSample\bin\Debug\netcoreapp2.1\ReceiveSample.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\ReceiveSample\bin\Debug\netcoreapp2.1\ReceiveSample.dll
+J:\github\MyGithub-IdentityServer\ReceiveSample\bin\Debug\netcoreapp2.1\ReceiveSample.pdb
+J:\github\MyGithub-IdentityServer\ReceiveSample\obj\Debug\netcoreapp2.1\ReceiveSample.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\ReceiveSample\obj\Debug\netcoreapp2.1\ReceiveSample.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\ReceiveSample\obj\Debug\netcoreapp2.1\ReceiveSample.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\ReceiveSample\obj\Debug\netcoreapp2.1\ReceiveSample.dll
+J:\github\MyGithub-IdentityServer\ReceiveSample\obj\Debug\netcoreapp2.1\ReceiveSample.pdb

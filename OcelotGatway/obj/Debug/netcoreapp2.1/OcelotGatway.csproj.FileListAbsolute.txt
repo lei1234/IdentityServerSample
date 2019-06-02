@@ -1,0 +1,14 @@
+J:\github\MyGithub-IdentityServer\OcelotGatway\bin\Debug\netcoreapp2.1\OcelotGatway.deps.json
+J:\github\MyGithub-IdentityServer\OcelotGatway\bin\Debug\netcoreapp2.1\OcelotGatway.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\OcelotGatway\bin\Debug\netcoreapp2.1\OcelotGatway.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\OcelotGatway\bin\Debug\netcoreapp2.1\OcelotGatway.dll
+J:\github\MyGithub-IdentityServer\OcelotGatway\bin\Debug\netcoreapp2.1\OcelotGatway.pdb
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.csprojAssemblyReference.cache
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.RazorAssemblyInfo.cache
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.RazorAssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.RazorTargetAssemblyInfo.cache
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.dll
+J:\github\MyGithub-IdentityServer\OcelotGatway\obj\Debug\netcoreapp2.1\OcelotGatway.pdb

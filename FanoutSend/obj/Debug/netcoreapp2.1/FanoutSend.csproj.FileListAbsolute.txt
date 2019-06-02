@@ -1,0 +1,11 @@
+J:\github\MyGithub-IdentityServer\FanoutSend\bin\Debug\netcoreapp2.1\FanoutSend.deps.json
+J:\github\MyGithub-IdentityServer\FanoutSend\bin\Debug\netcoreapp2.1\FanoutSend.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\FanoutSend\bin\Debug\netcoreapp2.1\FanoutSend.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\FanoutSend\bin\Debug\netcoreapp2.1\FanoutSend.dll
+J:\github\MyGithub-IdentityServer\FanoutSend\bin\Debug\netcoreapp2.1\FanoutSend.pdb
+J:\github\MyGithub-IdentityServer\FanoutSend\obj\Debug\netcoreapp2.1\FanoutSend.csprojAssemblyReference.cache
+J:\github\MyGithub-IdentityServer\FanoutSend\obj\Debug\netcoreapp2.1\FanoutSend.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\FanoutSend\obj\Debug\netcoreapp2.1\FanoutSend.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\FanoutSend\obj\Debug\netcoreapp2.1\FanoutSend.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\FanoutSend\obj\Debug\netcoreapp2.1\FanoutSend.dll
+J:\github\MyGithub-IdentityServer\FanoutSend\obj\Debug\netcoreapp2.1\FanoutSend.pdb

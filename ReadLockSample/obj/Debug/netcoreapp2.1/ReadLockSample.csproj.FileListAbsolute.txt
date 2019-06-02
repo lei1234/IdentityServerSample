@@ -1,0 +1,10 @@
+J:\github\MyGithub-IdentityServer\ReadLockSample\bin\Debug\netcoreapp2.1\ReadLockSample.deps.json
+J:\github\MyGithub-IdentityServer\ReadLockSample\bin\Debug\netcoreapp2.1\ReadLockSample.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\ReadLockSample\bin\Debug\netcoreapp2.1\ReadLockSample.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\ReadLockSample\bin\Debug\netcoreapp2.1\ReadLockSample.dll
+J:\github\MyGithub-IdentityServer\ReadLockSample\bin\Debug\netcoreapp2.1\ReadLockSample.pdb
+J:\github\MyGithub-IdentityServer\ReadLockSample\obj\Debug\netcoreapp2.1\ReadLockSample.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\ReadLockSample\obj\Debug\netcoreapp2.1\ReadLockSample.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\ReadLockSample\obj\Debug\netcoreapp2.1\ReadLockSample.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\ReadLockSample\obj\Debug\netcoreapp2.1\ReadLockSample.dll
+J:\github\MyGithub-IdentityServer\ReadLockSample\obj\Debug\netcoreapp2.1\ReadLockSample.pdb

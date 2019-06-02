@@ -12,3 +12,17 @@ E:\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.AssemblyInfo.
 E:\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.RazorTargetAssemblyInfo.cache
 E:\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.dll
 E:\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.pdb
+J:\github\MyGithub-IdentityServer\UserApi\bin\Debug\netcoreapp2.1\UserApi.deps.json
+J:\github\MyGithub-IdentityServer\UserApi\bin\Debug\netcoreapp2.1\UserApi.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\UserApi\bin\Debug\netcoreapp2.1\UserApi.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\UserApi\bin\Debug\netcoreapp2.1\UserApi.dll
+J:\github\MyGithub-IdentityServer\UserApi\bin\Debug\netcoreapp2.1\UserApi.pdb
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.csprojAssemblyReference.cache
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.RazorAssemblyInfo.cache
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.RazorAssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.RazorTargetAssemblyInfo.cache
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.dll
+J:\github\MyGithub-IdentityServer\UserApi\obj\Debug\netcoreapp2.1\UserApi.pdb

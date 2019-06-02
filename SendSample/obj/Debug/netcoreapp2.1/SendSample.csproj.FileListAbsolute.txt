@@ -1,0 +1,10 @@
+J:\github\MyGithub-IdentityServer\SendSample\bin\Debug\netcoreapp2.1\SendSample.deps.json
+J:\github\MyGithub-IdentityServer\SendSample\bin\Debug\netcoreapp2.1\SendSample.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\SendSample\bin\Debug\netcoreapp2.1\SendSample.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\SendSample\bin\Debug\netcoreapp2.1\SendSample.dll
+J:\github\MyGithub-IdentityServer\SendSample\bin\Debug\netcoreapp2.1\SendSample.pdb
+J:\github\MyGithub-IdentityServer\SendSample\obj\Debug\netcoreapp2.1\SendSample.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\SendSample\obj\Debug\netcoreapp2.1\SendSample.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\SendSample\obj\Debug\netcoreapp2.1\SendSample.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\SendSample\obj\Debug\netcoreapp2.1\SendSample.dll
+J:\github\MyGithub-IdentityServer\SendSample\obj\Debug\netcoreapp2.1\SendSample.pdb

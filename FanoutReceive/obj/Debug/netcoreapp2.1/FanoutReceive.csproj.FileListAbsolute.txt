@@ -1,0 +1,10 @@
+J:\github\MyGithub-IdentityServer\FanoutReceive\bin\Debug\netcoreapp2.1\FanoutReceive.deps.json
+J:\github\MyGithub-IdentityServer\FanoutReceive\bin\Debug\netcoreapp2.1\FanoutReceive.runtimeconfig.json
+J:\github\MyGithub-IdentityServer\FanoutReceive\bin\Debug\netcoreapp2.1\FanoutReceive.runtimeconfig.dev.json
+J:\github\MyGithub-IdentityServer\FanoutReceive\bin\Debug\netcoreapp2.1\FanoutReceive.dll
+J:\github\MyGithub-IdentityServer\FanoutReceive\bin\Debug\netcoreapp2.1\FanoutReceive.pdb
+J:\github\MyGithub-IdentityServer\FanoutReceive\obj\Debug\netcoreapp2.1\FanoutReceive.csproj.CoreCompileInputs.cache
+J:\github\MyGithub-IdentityServer\FanoutReceive\obj\Debug\netcoreapp2.1\FanoutReceive.AssemblyInfoInputs.cache
+J:\github\MyGithub-IdentityServer\FanoutReceive\obj\Debug\netcoreapp2.1\FanoutReceive.AssemblyInfo.cs
+J:\github\MyGithub-IdentityServer\FanoutReceive\obj\Debug\netcoreapp2.1\FanoutReceive.dll
+J:\github\MyGithub-IdentityServer\FanoutReceive\obj\Debug\netcoreapp2.1\FanoutReceive.pdb
